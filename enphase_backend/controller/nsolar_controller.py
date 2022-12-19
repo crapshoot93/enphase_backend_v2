@@ -7,6 +7,7 @@ from service import clients, modules
 
 NSOLAR_API = Blueprint('nsolar_api', __name__)
 
+
 def get_blueprint():
     return NSOLAR_API
 
